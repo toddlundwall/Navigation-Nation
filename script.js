@@ -31,10 +31,6 @@ const toggleNav = function (e) {
     };
 };
 
-document.addEventListener('click', function (e) {
-    console.log(e.target);
-});
-
 menuBars.addEventListener('click', toggleNav);
 navList.forEach((nav) => {
     nav.addEventListener('click', toggleNav);
